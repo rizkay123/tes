@@ -14,12 +14,6 @@ int main ()
     char input[100];
     printf("Masukan Password: "); gets(input);
     printf("safdsa");
-    inject_and_bypass();
-    if (strcmp(input,"abcde") == 0){
-         printf ("PASSWORD BERHASIL!");
-    }else{
-         printf ("PASSWORD SALAH!\n");
-    }
     getch();
     return 0;
 }
